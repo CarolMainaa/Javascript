@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(232, 255, 241, 0.918);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo{
+    float: left;
+    padding-left: 5px;
+
+  }
+  .container{
+      width: 500px;
+      height: 420px;
+      margin-top: 160px;
+      border-radius: 5px;
+      background-color: rgba(2, 110, 43, 0.918);
+  }
+
+  h1{
+    color: gold;
+    font-size: 55px;
+
+  }
+  #message-el{
+    font-style: italic;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    clear: left;
+  }
+
+  #card-el,#sum-el{
+    font-size: 20px;
+    padding-top: 5px;
+
+  }
+  button{
+     padding-top: 3px;
+     margin-top: 2px;
+     border: none;
+     width: 150px;
+     height: 40px;
+     border-radius: 5px;
+     background-color: gold;
+     color:rgba(2, 110, 43, 0.918) ;
+     font-weight: bolder;
+  }
+
+  button:hover{
+    transform: translateX(2px);
+  }
+  #player-el{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+  }
